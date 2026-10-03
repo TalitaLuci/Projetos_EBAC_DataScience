@@ -1,0 +1,44 @@
+{
+  "n_clientes": 2495,
+  "taxa_churn": 0.26012024048096194,
+  "cv_roc_auc": {
+    "Regressão Logística": {
+      "roc_auc_mean": 0.8442458588447563,
+      "roc_auc_std": 0.014759325956729179
+    },
+    "Random Forest": {
+      "roc_auc_mean": 0.8156996653865484,
+      "roc_auc_std": 0.022164497511986472
+    }
+  },
+  "test_metrics": {
+    "Regressão Logística": {
+      "accuracy": 0.7635270541082164,
+      "precision": 0.5277777777777778,
+      "recall": 0.8769230769230769,
+      "f1": 0.6589595375722543,
+      "roc_auc": 0.8737335834896811
+    },
+    "Random Forest": {
+      "accuracy": 0.7875751503006012,
+      "precision": 0.5952380952380952,
+      "recall": 0.5769230769230769,
+      "f1": 0.5859375,
+      "roc_auc": 0.8455805711903273
+    }
+  },
+  "top_features": {
+    "num__Tempo_Cliente": 0.22722594586072667,
+    "num__Pagamento_Mensal": 0.22057277983157073,
+    "cat__Tipo_Contrato_Month-to-month": 0.09189334805736868,
+    "cat__Tipo_Contrato_Two year": 0.04101939533421897,
+    "cat__Servico_Seguranca_No": 0.0410037004765974,
+    "cat__Servico_Internet_Fiber optic": 0.03942012501604568,
+    "cat__Suporte_Tecnico_No": 0.03930810548264774,
+    "cat__Genero_Male": 0.036462358068453445,
+    "cat__Forma_Pagamento_Electronic check": 0.028509412496992074,
+    "cat__Casado_Yes": 0.02781459919180076,
+    "cat__Dependentes_Yes": 0.025774744087936438,
+    "num__Idoso": 0.025566625082593244
+  }
+}

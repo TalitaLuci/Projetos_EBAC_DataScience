@@ -6,6 +6,7 @@ Cada projeto vive na sua própria pasta, com README, dependências, dados, noteb
 | # | Projeto | Tema | Destaque |
 |---|---------|------|----------|
 | 1 | [Titanic_ML_from_Disaster](Titanic_ML_from_Disaster/) | Classificação (Kaggle) | Duelo de modelos, diagnóstico de overfitting v1 → v2, Kaggle 0,755 → **0,780** |
+| 2 | [Churn_Telecom](Churn_Telecom/) | Classificação (churn) | Pipeline sem vazamento, Reg. Logística vs Random Forest, recall de **88%** na classe Churn |
 
 ## Estrutura padrão de cada projeto
 
