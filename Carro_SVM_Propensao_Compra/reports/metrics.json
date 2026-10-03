@@ -1,0 +1,57 @@
+{
+  "n_clientes": 1000,
+  "taxa_compra": 0.402,
+  "test_metrics": {
+    "SVM linear": {
+      "accuracy": 0.828,
+      "precision": 0.8607594936708861,
+      "recall": 0.68,
+      "f1": 0.7597765363128491
+    },
+    "SVM poly": {
+      "accuracy": 0.832,
+      "precision": 0.881578947368421,
+      "recall": 0.67,
+      "f1": 0.7613636363636364
+    },
+    "SVM rbf": {
+      "accuracy": 0.912,
+      "precision": 0.875,
+      "recall": 0.91,
+      "f1": 0.8921568627450981
+    },
+    "XGBoost": {
+      "accuracy": 0.896,
+      "precision": 0.8627450980392157,
+      "recall": 0.88,
+      "f1": 0.8712871287128713
+    }
+  },
+  "cv_metrics": {
+    "SVM linear": {
+      "cv_accuracy_mean": 0.826,
+      "cv_accuracy_std": 0.02745906043549194,
+      "cv_recall_mean": 0.7040432098765432,
+      "cv_f1_mean": 0.764135794889339
+    },
+    "SVM poly": {
+      "cv_accuracy_mean": 0.842,
+      "cv_accuracy_std": 0.02227105745132011,
+      "cv_recall_mean": 0.7239506172839507,
+      "cv_f1_mean": 0.7858631029510892
+    },
+    "SVM rbf": {
+      "cv_accuracy_mean": 0.9029999999999999,
+      "cv_accuracy_std": 0.018601075237738292,
+      "cv_recall_mean": 0.9031481481481481,
+      "cv_f1_mean": 0.8818658614999413
+    },
+    "XGBoost": {
+      "cv_accuracy_mean": 0.881,
+      "cv_accuracy_std": 0.02267156809750929,
+      "cv_recall_mean": 0.8607407407407408,
+      "cv_f1_mean": 0.8528971618431648
+    }
+  },
+  "svm_sem_escala": null
+}
