@@ -23,17 +23,6 @@ Exercício do **Módulo 19 (Estatística Aplicada)** do curso **EBAC — Profiss
 
 ![Distribuição de Z](reports/figures/distribuicao_z.png)
 
-## ✅ Feedback da professora — como foi aplicado
-
-| Ponto do feedback | O que foi feito |
-|---|---|
-| O teste deve ser **à direita**, com a estatística definida como **B − A** | Z = (x̄B − x̄A)/EP em todo o projeto; p-valor na cauda direita (`1 − Φ(z)`) e região crítica Z > 1,645. A questão 1 traz uma tabela comparando as duas definições (B − A → direita; A − B → esquerda) |
-| Gráfico **invertido**: inverter o sinal para ficar consistente com teste à direita | Gráfico refeito: Z observado = **+1,513** e região crítica na **cauda direita**; a área do p-valor é hachurada, para não se confundir com a região crítica. Uma célula de verificação mostra que Z(A − B) com a cauda errada daria p = 0,935 (conclusão inválida) |
-| Explicar melhor a comparação das **variâncias**: diferenças entre valores amostrais e parâmetros são esperadas pela variabilidade amostral | A questão 2 traz a tabela amostral × populacional e mostra que as médias amostrais ficam a ≤ 1 erro padrão dos parâmetros. Também explica que a ordem das variâncias está invertida (amostral A > B, populacional A < B) por variabilidade amostral, e por isso o teste usa os σ populacionais |
-| Elogios mantidos | Hipóteses, justificativa de teste unilateral, destaque de que diferença entre médias não garante significância e influência do tamanho da amostra continuam no notebook |
-
-Além disso, a seção 5 acrescenta IC da diferença, tamanho do efeito (d de Cohen ≈ 0,31) e análise de poder.
-
 ## 📁 Estrutura
 
 ```
