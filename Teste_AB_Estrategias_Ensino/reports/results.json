@@ -1,0 +1,43 @@
+{
+  "teste_z": {
+    "mean_1": 74.74868110507046,
+    "mean_2": 71.40559272313098,
+    "diff": 3.3430883819394808,
+    "std_error": 2.209072203437452,
+    "z": 1.513345003724835,
+    "p_value": 0.06509602341120077,
+    "alpha": 0.05,
+    "z_critical": 1.6448536269514722,
+    "alternative": "greater",
+    "reject_h0": false
+  },
+  "descritiva": {
+    "Estratégia A": {
+      "n": 50.0,
+      "média amostral": 71.40559272313098,
+      "média populacional": 70.0,
+      "erro padrão da média": 1.414213562373095,
+      "variância amostral": 129.26549435656224,
+      "variância populacional": 100.0,
+      "desvio padrão amostral": 11.369498421503133,
+      "desvio padrão populacional": 10.0
+    },
+    "Estratégia B": {
+      "n": 50.0,
+      "média amostral": 74.74868110507046,
+      "média populacional": 75.0,
+      "erro padrão da média": 1.697056274847714,
+      "variância amostral": 110.4700206552835,
+      "variância populacional": 144.0,
+      "desvio padrão amostral": 10.510471952071587,
+      "desvio padrão populacional": 12.0
+    }
+  },
+  "ic95_diferenca": [
+    -0.9866135760464649,
+    7.6727903399254265
+  ],
+  "cohens_d": 0.30534911666954206,
+  "poder_diferenca_verdadeira": 0.7318902884743539,
+  "n_por_grupo_para_80pct_poder": 61
+}
